@@ -19,7 +19,7 @@ Run web application
 For start Flask web application, type:
 ---------------------------------------------
 1) Start Flask web app: ``$ python src/app.py``
-2) Open in your web browser: <http://127.0.0.1:5000/api/funny>
+2) Open in your web browser: <http://127.0.0.1:5000/api>
 
 
 
@@ -32,6 +32,8 @@ For run tests, type:
 3) All tests in package: ``pytest -s -v tests``
 
 
-Changelog:
-0.0.2  - Add first 'flask-test' and fixture
-0.0.1  - Add first endpoints <http://127.0.0.1:5000/api/funny>
+
+| Changelog:
+| 0.1.0  - Add Flask routes for perform CRUD operations.
+| 0.0.2  - Add first 'flask-test' and fixture
+| 0.0.1  - Add first endpoints <http://127.0.0.1:5000/api/funny>
